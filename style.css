@@ -731,13 +731,31 @@ body {
      /* --------------contact page--------------------------*/
 
 
-     /*
+     #contact-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     }
 
-     not done
-     imp : attach map, google sheet form
+     #form-details form{
+      width: 65%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+
+     }
+
+     #form-details form input,
+     #form-details form textarea{
+      width: 100%;
+      padding: 12px;
+      outline: none;
+      border: 1px solid red;
+      margin-bottom: 20px;
+     }
+
      
-    */
-
   /* _------------------media qurey------------------ */
 
   @media(max-width:1000px){
